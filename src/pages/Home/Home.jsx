@@ -37,7 +37,7 @@ const Home = () => {
           <p>{cityWeather.name}</p>
           {cityWeather.main ? (
             <section className="temp-data">
-              <p>Aktuelle Temperatur: {cityWeather.main.temp} °C</p>
+              <p>Aktuelles Temperatur: {cityWeather.main.temp} °C</p>
               <p>Min Temperatur: {cityWeather.main.temp_min} °C</p>
               <p>Max Temperatur: {cityWeather.main.temp_max} °C</p>
             </section>
