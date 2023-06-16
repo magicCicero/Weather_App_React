@@ -1,0 +1,21 @@
+.icon-data {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 10vw;
+  height: 10vh;
+}
+
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+}
+.weather-data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
